@@ -1,13 +1,69 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap');
+
+/* Reset */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Lexend Deca';
+  height: 100vw;
+  background: #F3F5F7;
+}
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Header component */
+
+.header {
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 2.56rem;
+  padding: 3rem 1.25rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+/* Search component */
+
+.form input {
+  padding: 0.75rem;
+  padding-left: 2.375rem;
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-size: .875rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  background-image: url('../public/search.svg');
+  background-position: .625rem center;
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+/* Home Component */
+.cards {
+  padding: 3.125rem 1.25rem;
 }

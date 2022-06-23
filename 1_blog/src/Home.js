@@ -1,6 +1,8 @@
 const Home = () => {
   return (
-    <h3>Home Component</h3>
+    <div className="cards">
+      <h3>Home Component</h3>
+    </div>
   );
 };
 
