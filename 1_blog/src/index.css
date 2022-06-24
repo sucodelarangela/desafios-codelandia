@@ -12,7 +12,7 @@
 body {
   font-family: 'Lexend Deca';
   height: 100vw;
-  background: #F3F5F7;
+  background: #f3f5f7;
 }
 
 /* Screen Reader Only */
@@ -53,17 +53,93 @@ body {
   padding-left: 2.375rem;
   width: 100%;
   border-radius: 5px;
-  font-family: "Inter";
-  font-size: .875rem;
+  font-family: 'Inter';
+  font-size: 0.875rem;
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   background-image: url('../public/search.svg');
-  background-position: .625rem center;
+  background-position: 0.625rem center;
   background-repeat: no-repeat;
-  background-size: 1rem 1rem;
+  background-size: 1rem;
 }
 
 /* Home Component */
 .cards {
+  display: flex;
+  flex-flow: column wrap;
   padding: 3.125rem 1.25rem;
+  gap: 1.5625rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card h3 {
+  padding-bottom: 0.625rem;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #1a202c;
+}
+
+.card p {
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  color: #717171;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.75rem;
+}
+
+.card__header p {
+  color: #717171;
+  font-size: 0.875rem;
+}
+
+/* Desktop media query */
+@media screen and (min-width: 1280px) {
+  .header {
+    gap: 4.5rem;
+    padding: 3rem 16.875rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .form input {
+    padding: 1.375rem;
+    padding-left: 4rem;
+    font-size: 1.125rem;
+    background-position: 1.375rem center;
+    background-size: 1.5rem;
+  }
+
+  .cards {
+    padding: 6.25rem 16.875rem;
+    gap: 3.125rem;
+  }
+
+  .card {
+    padding: 1.625rem;
+  }
+
+  .card__header {
+    padding-bottom: 1.375rem 1.875rem;
+  }
+
+  .card h3 {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+
+  .card p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
 }
