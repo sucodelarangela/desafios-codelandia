@@ -63,6 +63,11 @@ body {
   background-size: 1rem;
 }
 
+::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+
 /* Home Component */
 .cards {
   display: flex;

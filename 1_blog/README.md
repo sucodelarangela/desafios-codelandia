@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+ <div id="top"></div>
+ 
+# Desafio #1: Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_For the English version of this README, click [here](#English)._
 
-## Available Scripts
+<div align='center'>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</div>
 
-In the project directory, you can run:
+> Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+## 🔎 Visão geral
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Protótipo estático de uma página de blog, com design desenvolvido por [**Iuri Silva**](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=0%3A1) como desafio para o aprendizado e prática de linguagens e frameworks front-end. Este desafio foi desenvolvido em [**React.js**](https://pt-br.reactjs.org/) com JavaScript.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Como instalar a aplicação na sua máquina
 
-### `npm test`
+1. Faça o download deste repositório através do botão verde **Code** no topo da página e, em seguida, clicando em **Download ZIP**. Ou, se preferir, através do terminal (Git Bash, Powershell, etc.) usando o comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/sucodelarangela/desafios-codelandia.git
+   ```
 
-### `npm run build`
+2. Acesse a pasta do projeto com seu terminal;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Rode o comando `npm install` para instalar as dependências do projeto;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Para iniciar a aplicação, rode o comando `npm start` no terminal. Você deve receber a seguinte mensagem de confirmação:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+    Compiled successfully!
 
-### `npm run eject`
+    You can now view 1_blog in the browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      Local:            http://localhost:3000
+      On Your Network:  http://10.0.0.199:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Note that the development build is not optimized.
+    To create a production build, use npm run build.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    webpack compiled successfully
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Para usar a aplicação, abra o seu browser preferido e acesse o endereço `http://localhost:3000/`
 
-## Learn More
+![](/1_blog/public/screenshot.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[🔼 Voltar para o topo](#top)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+<div id="English" style="font-style: italic;"></div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+_English version_
 
-### Analyzing the Bundle Size
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔎 Overview
 
-### Making a Progressive Web App
+A static blog page prototype with design developed by [**Iuri Silva**](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=0%3A1) as a challenge for learning and practicing front-end languages and frameworks. This challenge was developed with [**React.js**](https://reactjs.org/) library and JavaScript.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⚙️ How to install the app on your machine
 
-### Advanced Configuration
+1. Download this repository by clicking the green **Code** button on top of the page and then clicking **Download ZIP** option. Or use the following command on your terminal (Git Bash, Powershell, etc.):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   git clone https://github.com/sucodelarangela/desafios-codelandia.git
+   ```
 
-### Deployment
+2. Access the project root folder on your terminal;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Run `npm install` to install all project dependencies;
 
-### `npm run build` fails to minify
+4. To start the application, run `npm start` on yout terminal. You should receive the following message:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+     Compiled successfully!
+
+     You can now view 1_blog in the browser.
+
+     Local: http://localhost:3000
+     On Your Network: http://10.0.0.171:3000
+
+     Note that the development build is not optimized.
+     To create a production build, use npm run build.
+
+     webpack compiled successfully
+   ```
+
+5. To use the app, open your favorite browser and go to the URL `http://localhost:3000/`
+
+![](/1_blog/public/screenshot.png)
+
+[🔼 Back to top](#top)
+
+---
+
+Developed with 🧡 by [@sucodelarangela 🍊](https://angelacaldas.vercel.app) (it's a me!) with page design by [Iuri Silva](https://iuricode.com)
