@@ -2,6 +2,10 @@
 import Header from './Components/Header';
 import Home from './Components/Home';
 
+// assets
+import heartVoid from './assets/heart_void.svg';
+import heartFill from './assets/heart_fill.svg';
+
 // Database
 import { blogs } from './data/data.js';
 
