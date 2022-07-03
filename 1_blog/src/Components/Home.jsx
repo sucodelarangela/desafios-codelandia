@@ -1,28 +1,17 @@
-// dependencies
-import { HeartStraight } from 'phosphor-react';
-
 // assets
 import heartVoid from '../assets/heart_void.svg';
-import heartFill from '../assets/heart_fill.svg';
+import { useState } from 'react';
 
-const Home = ({ blogs }) => {
-
+const Home = ({ date, title, body, like }) => {
   return (
-    <section className="cards">
-      {
-        blogs.map((blog) => (
-          <div className="card" key={blog.id}>
-            <div className="card__header">
-              <p>{blog.date}</p>
-              <img src={heartVoid} alt="" />
-              {/* <HeartStraight size={22} color='#574AE8' /> */}
-            </div>
-            <h3>{blog.title}</h3>
-            <p>{blog.body}</p>
-          </div>
-        ))
-      }
-    </section>
+    <div className="card">
+      <div className="card__header">
+        <p>{date}</p>
+        <img src={heartVoid} alt="Curtir" role='button' />
+      </div>
+      <h3>{title}</h3>
+      <p>{body}</p>
+    </div>
   );
 };
 

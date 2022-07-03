@@ -9,9 +9,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="content">
-        <Home blogs={blogs} />
-      </div>
+      <section className="cards">
+        {
+          blogs.map((blog) => (
+            <Home key={blog.id} date={blog.date} title={blog.title} body={blog.body} like={blog.like} />
+          ))
+        }
+      </section>
     </div>
   );
 }
